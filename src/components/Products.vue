@@ -2,10 +2,10 @@
 <div>
   <h3>ando</h3>
   <div class="products">
-      <div v-for="product in allProducts" :key="product.id" class="product">
-        {{ product.title }}
-        {{ product.value }}
-      </div>
+        <div v-for="product in allProducts" :key="product.id" class="product">
+          {{ product.title }}
+          {{ product.value }}
+        </div>
   </div>
 </div>
 </template>
